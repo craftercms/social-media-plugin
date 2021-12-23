@@ -1,0 +1,47 @@
+# This file describes a plugin for use in Crafter CMS
+
+# The version of the format for this file
+descriptorVersion: 2
+
+# Describe the plugin
+plugin:
+  type: site
+  id: org.craftercms.plugin.social-media-widget
+  name: Social Media Widget
+  tags:
+    - web
+    - freemarker
+    - social
+    - media
+  version:
+    major: 1
+    minor: 0
+    patch: 0
+  description: A plugin to add social media links to a site
+  documentation: "https://raw.githubusercontent.com/craftercms/social-media-widget/master/readme.md"
+  website:
+    name: Social Media Widget
+    url: https://github.com/craftercms/social-media-widget
+  media:
+    screenshots:
+      - title: Social Media Widget
+        description: Social Media Widget Example
+        url: https://raw.githubusercontent.com/craftercms/social-media-widget/master/.crafter/screenshots/default.png
+  developer:
+    company:
+      name: Crafter Software
+      email: info@craftersoftware.com
+      url: https://craftersoftware.com
+  build:
+    id: c3d2a5444e6a24b5e0481d6ba87901d0b02716c8
+    date: 2021-12-23T00:00:00Z
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+  crafterCmsVersions:
+    - major: 4
+      minor: 0
+      patch: 0
+  crafterCmsEditions:
+    - community
+    - enterprise
