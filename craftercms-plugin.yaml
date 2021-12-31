@@ -18,7 +18,7 @@ plugin:
     minor: 0
     patch: 0
   description: A plugin to add social media links to a site
-  documentation: "https://raw.githubusercontent.com/craftercms/social-media-widget/master/readme.md"
+  documentation: "https://raw.githubusercontent.com/craftercms/social-media-plugin/master/readme.md"
   website:
     name: Social Media Widget
     url: https://github.com/craftercms/social-media-widget
@@ -26,7 +26,7 @@ plugin:
     screenshots:
       - title: Social Media Widget
         description: Social Media Widget Example
-        url: https://raw.githubusercontent.com/craftercms/social-media-widget/master/.crafter/screenshots/default.png
+        url: https://raw.githubusercontent.com/craftercms/social-media-plugin/master/.crafter/screenshots/default.png
   developer:
     company:
       name: Crafter Software
