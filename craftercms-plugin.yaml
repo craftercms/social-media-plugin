@@ -26,7 +26,7 @@ plugin:
     screenshots:
       - title: Social Media Widget
         description: Social Media Widget Example
-        url: https://raw.githubusercontent.com/craftercms/social-media-plugin/master/.crafter/screenshots/default.png
+        url: https://raw.githubusercontent.com/craftercms/social-media-plugin/master/.crafter/cover.png
   developer:
     company:
       name: Crafter Software
