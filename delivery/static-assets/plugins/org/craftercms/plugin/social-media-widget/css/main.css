@@ -1,0 +1,14 @@
+.social-media-container {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.social-media-container .social-media-item {
+  margin-left: 1rem;
+  padding: 0;
+}
+
+.social-media-container .social-media-item a {
+  border: none;
+}

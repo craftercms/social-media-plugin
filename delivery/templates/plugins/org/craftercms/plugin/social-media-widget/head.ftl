@@ -1,0 +1,1 @@
+<link rel="stylesheet" href="/static-assets/plugins/org/craftercms/plugin/social-media-widget/css/main.css" />
