@@ -1,4 +1,4 @@
-# Social Media Widget Plugin for Crafter CMS
+# Social Media Widget Plugin for CrafterCMS
 
 This is a plugin to add one or more social media links to your site.
 
