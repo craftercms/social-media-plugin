@@ -13,7 +13,7 @@
     account, index
   >
     <#assign icon="/static-assets/plugins/org/craftercms/plugin/social-media-widget/logos/${account.network_s}.png"/>
-    <@crafter.a $field="accounts_o.url_s" $index=index href="${account.url_s}">
+    <@crafter.a $field="accounts_o.url_s" $index=index href="${account.url_s}" target="_blank">
       <@crafter.img
         $field="accounts_o.icon_s"
         $index=index

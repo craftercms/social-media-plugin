@@ -294,10 +294,10 @@
               <id>icon_s</id>
               <iceId />
               <title>Icon</title>
-              <description />
+              <description
+              >Leave empty to use the default icon. If no icon is provided, the system will use the built-in.</description>
               <defaultValue />
-              <help
-              >Leave empty to use the default icon or provide your own</help>
+              <help />
               <properties>
                 <property>
                   <name>width</name>
@@ -327,7 +327,7 @@
                 </property>
                 <property>
                   <name>imageManager</name>
-                  <value />
+                  <value>imageUpload,imageFromRepository</value>
                   <type>datasource:image</type>
                 </property>
                 <property>
@@ -498,6 +498,37 @@
           <name>showkeys</name>
           <value />
           <type>boolean</type>
+        </property>
+      </properties>
+    </datasource>
+    <datasource>
+      <type>img-repository-upload</type>
+      <id>imageFromRepository</id>
+      <title>Image From Repository</title>
+      <interface>image</interface>
+      <properties>
+        <property>
+          <name>repoPath</name>
+          <value>/static-assets/images</value>
+          <type>content-path-input</type>
+        </property>
+        <property>
+          <name>useSearch</name>
+          <value>false</value>
+          <type>boolean</type>
+        </property>
+      </properties>
+    </datasource>
+    <datasource>
+      <type>img-desktop-upload</type>
+      <id>imageUpload</id>
+      <title>Image Upload</title>
+      <interface>image</interface>
+      <properties>
+        <property>
+          <name>repoPath</name>
+          <value>/static-assets/images/{objectId}</value>
+          <type>content-path-input</type>
         </property>
       </properties>
     </datasource>
