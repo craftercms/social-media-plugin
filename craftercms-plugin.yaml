@@ -16,7 +16,7 @@ plugin:
   version:
     major: 1
     minor: 0
-    patch: 12
+    patch: 13
   description: A plugin to add social media links to a site
   documentation: "https://raw.githubusercontent.com/craftercms/social-media-plugin/master/readme.md"
   website:
